@@ -1,0 +1,18 @@
+
+
+'''
+HackThisSite - Programming - Level1
+https://www.hackthissite.org/missions/prog/1/
+'''
+tmptxt = "ocaaccol 	 tsdenut 	 breand 	 dnarec 	 ashjuo 	 kinter 	 nhosann 	 ecrthes 	 flrweos 	 tetesr"
+
+#txt = input("Load scrumble wordlist:")
+
+txt = tmptxt.split("ocaaccol  tsdenut 	 breand 	 dnarec 	 ashjuo 	 kinter 	 nhosann 	 ecrthes 	 flrweos 	 tetesr
+
+txt = txt.split(",")
+
+for i in range(len(txt)):
+	print(txt[i])
+
+
